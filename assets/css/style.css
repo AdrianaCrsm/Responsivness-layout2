@@ -481,6 +481,7 @@ textarea{
 #closeMenuBtn{
     width: 40px;
     height: 40px;
+    /* ma bucur ca ai folosit tranzitie aici, dar ca si UX este putin obositoare pentru user, sa fuga "x"-ul de tine. Animatiile/tranzitiile trebuie alese cu atentie sa nu incomodeze experienta user-ului */
     transition: transform .15s;
 }
 #closeMenuBtn:hover{
